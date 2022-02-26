@@ -75,7 +75,7 @@ function GetAimPart()
         return 'LowerTorso'
     end
     if Client.Values.AimPart == 'Random' then
-        if math.random(9,10) == 9 then
+        if math.random(11,12) == 11 then
             return 'Head'
         else
             return 'LowerTorso'
