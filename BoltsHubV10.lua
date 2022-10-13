@@ -15,10 +15,10 @@ Client = {
         AutoHealth = false,
         Trac = false,
         Sight = false,
-        FOV = false,
+        FOV = true,
         Golden = true,
-        Visiblecheck = false,
-        SilentAim = false,
+        Visiblecheck = true,
+        SilentAim = true,
 
     },
     Values = {
@@ -27,7 +27,7 @@ Client = {
         Test = '',
         FOV = 750,
         ChatMsg = 'Bolts Hub V5 Is The Best Arsenal GUI - Sponsored By Carls Jr',
-        AimPart = 'Head'
+        AimPart = 'Random'
 
         
     }
@@ -75,7 +75,7 @@ function GetAimPart()
         return 'LowerTorso'
     end
     if Client.Values.AimPart == 'Random' then
-        if math.random(14,15) == 14 then
+        if math.random(18,19) == 18 then
             return 'Head'
         else
             return 'LowerTorso'
