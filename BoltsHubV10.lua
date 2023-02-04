@@ -26,7 +26,7 @@ Client = {
         LookMeth = 'Look Up',                                                                                                                                                                                                                                                 
         Test = '',
         FOV = 750,
-        ChatMsg = 'Bolts Hub V5 Is The Best Arsenal GUI - Sponsored By Carls Jr',
+        ChatMsg = 'Bolts Hub V10 Is The Best Arsenal GUI - Sponsored By Someone',
         AimPart = 'Random'
 
         
@@ -75,7 +75,7 @@ function GetAimPart()
         return 'LowerTorso'
     end
     if Client.Values.AimPart == 'Random' then
-        if math.random(18,19) == 18 then
+        if math.random(9,11) == 18 then
             return 'Head'
         else
             return 'LowerTorso'
